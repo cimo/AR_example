@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AR example/Scene/Placement.unity
+    guid: f9f3fdc10edfb4b44b4e05b5b3a969e8
+  - enabled: 1
+    path: Assets/AR example/Scene/Image tracker.unity
+    guid: 1b57d3be107f1584ea23dece87873ad4
+  - enabled: 1
+    path: Assets/AR example/Scene/Prepared.unity
+    guid: dae39719d26f67e489a6f4809cd5ee45
+  m_configObjects: {}
