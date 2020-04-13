@@ -9,6 +9,7 @@ AR code collection with Unity engine - Work in progress.
 | Plane tracker |
 | Image tracker |
 | Interaction with scene |
+| External real light in scene |
 | Ui |
 
 | Library: |
