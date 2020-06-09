@@ -14,4 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AR example/Scene/Prepared.unity
     guid: dae39719d26f67e489a6f4809cd5ee45
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a7406dd8b3fb0cd4eb167339a55d9bc3,
+      type: 2}
