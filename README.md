@@ -1,7 +1,7 @@
 AR sk
 ==============
 
-Is a starter kit code create with unity engine for create, in a few step, the 3D AR project. - Work in progress.
+Starter kit code create with unity engine for create, in a few step, the 3D AR project. - Work in progress.
 
 | Info: |
 |:---|
