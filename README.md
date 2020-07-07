@@ -1,7 +1,7 @@
-AR example
+AR sk
 ==============
 
-AR code collection with Unity engine - Work in progress.
+Is a starter kit code create with unity engine for create, in a few step, the 3D AR project. - Work in progress.
 
 | Info: |
 |:---|
