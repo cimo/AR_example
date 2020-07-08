@@ -82,11 +82,11 @@ public class TrackedImageInfoManager : MonoBehaviour
             planeGo.SetActive(true);
 
             // The image extents is only valid when the image is being tracked
-            trackedImage.transform.localScale = new Vector3(trackedImage.size.x, 1f, trackedImage.size.y);
+            //trackedImage.transform.localScale = new Vector3(trackedImage.size.x, 1f, trackedImage.size.y);
 
             // Set the texture
-            var material = planeGo.GetComponentInChildren<MeshRenderer>().material;
-            material.mainTexture = (trackedImage.referenceImage.texture == null) ? defaultTexture : trackedImage.referenceImage.texture;
+            //var material = planeGo.GetComponentInChildren<MeshRenderer>().material;
+            //material.mainTexture = (trackedImage.referenceImage.texture == null) ? defaultTexture : trackedImage.referenceImage.texture;
         }
         else
         {
@@ -99,13 +99,13 @@ public class TrackedImageInfoManager : MonoBehaviour
         foreach (var trackedImage in eventArgs.added)
         {
             // Give the initial image a reasonable default scale
-            trackedImage.transform.localScale = new Vector3(0.01f, 1f, 0.01f);
+            //trackedImage.transform.localScale = new Vector3(0.01f, 1f, 0.01f);
 
-            //UpdateInfo(trackedImage);
+            UpdateInfo(trackedImage);
         }
 
         foreach (var trackedImage in eventArgs.updated) {
-            //UpdateInfo(trackedImage);
+            UpdateInfo(trackedImage);
         }
     }
 }

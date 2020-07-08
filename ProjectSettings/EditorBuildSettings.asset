@@ -6,14 +6,16 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AR example/Scene/Placement.unity
+    path: Assets/Scene/Placement.unity
     guid: f9f3fdc10edfb4b44b4e05b5b3a969e8
   - enabled: 1
-    path: Assets/AR example/Scene/Image tracker.unity
+    path: Assets/Scene/Image tracker.unity
     guid: 1b57d3be107f1584ea23dece87873ad4
   - enabled: 1
-    path: Assets/AR example/Scene/Prepared.unity
+    path: Assets/Scene/Prepared.unity
     guid: dae39719d26f67e489a6f4809cd5ee45
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b308e2b630ea398499d496102054fcfa,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a7406dd8b3fb0cd4eb167339a55d9bc3,
       type: 2}
