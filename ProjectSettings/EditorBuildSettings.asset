@@ -6,16 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scene/Placement.unity
-    guid: f9f3fdc10edfb4b44b4e05b5b3a969e8
+    path: Assets/AR sk/Scene/Placement.unity
+    guid: e7da0ad8df77ac14e856319ceef6aea2
   - enabled: 1
-    path: Assets/Scene/Image tracker.unity
-    guid: 1b57d3be107f1584ea23dece87873ad4
+    path: Assets/AR sk/Scene/Image tracking.unity
+    guid: 9a1515edf3cab2444bd3dec27d213e6e
   - enabled: 1
-    path: Assets/Scene/Prepared.unity
-    guid: dae39719d26f67e489a6f4809cd5ee45
+    path: Assets/AR sk/Scene/Interaction.unity
+    guid: c12e340cd5ba74d40b01cb9443219254
   m_configObjects:
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: b308e2b630ea398499d496102054fcfa,
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e512f5818449cda439317ff392bb998a,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a7406dd8b3fb0cd4eb167339a55d9bc3,
+    com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: cc54dbfc479916b41b43fc0723b934e8,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8904a821b393bac4aa89538940059064,
       type: 2}
