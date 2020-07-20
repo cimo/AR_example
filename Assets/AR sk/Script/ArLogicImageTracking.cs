@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
-using ArResource;
-
 namespace ArImageTracking {
     public class ArLogicImageTracking : MonoBehaviour {
         // Vars
