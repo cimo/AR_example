@@ -16,7 +16,7 @@ Starter kit code for unity engine. Create in a few steps the complete 3D AR proj
 |:---|
 | Unity engine - https://unity.com/ |
 
-<b>By CIMO - https://reinventsoftware.org</b>
+By CIMO - https://reinventsoftware.org
 
 Supported By:
 
